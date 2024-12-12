@@ -26,7 +26,7 @@ def solve_part2(reports):
     print("Part 2:", total)
 
 def solve():
-    with open("first.txt", "r") as file:
+    with open("input.txt", "r") as file:
         contents = file.read()
         nums = contents.split("\n")
         reports = []
