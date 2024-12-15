@@ -31,7 +31,7 @@ def solve():
         contents = file.read()
         arr = contents.split("\n")
         
-        # solve_first(arr)
+        solve_first(arr)
         solve_second(arr)
 
 solve()
